@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap");
+
+.txt-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/*------------------------------ Header ------------------------------*/
+#PrimlandLine {
+  width: 90%;
+  margin: 5em auto auto auto;
+  text-align: center;
+  background: rgb(201, 194, 174);
+}
+
+.website-header {
+  text-align: center;
+  background-color: white;
+  margin: 0 7em 0 7em;
+}
+
+#PrimlandLogo {
+  margin-bottom: -10em;
+}
+
+/*------------------------------ Row ------------------------------*/
+div .row {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+/*------------------------------ Buttons ------------------------------*/
+.recbtn {
+  font-family: "Red Rose", cursive;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 3.5rem 5rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: rgba(122, 97, 22, 0.561);
+  width: 400px;
+  height: 200px;
+}
+
+.recbtn:focus {
+  background-color: rgba(122, 97, 22, 0.561);
+}
+
+.recbtn-primary {
+  color: #fff;
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.recbtn-primary:hover {
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.recbtn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary {
+  color: #fff;
+  background-color: #382102;
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary:hover {
+  color: #fff;
+  background-color: #382102;
+  border-color:rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary.disabled, .bttn-primary:disabled {
+  color: #fff;
+  background-color: #382102;
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary:not(:disabled):not(.disabled):active, .bttn-primary:not(:disabled):not(.disabled).active,
+.show > .bttn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #382102;
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-primary:not(:disabled):not(.disabled):active:focus, .bttn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .bttn-primary.dropdown-toggle:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary {
+  color: #fff;
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary:hover {
+  color: #fff;
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary:not(:disabled):not(.disabled):active, .bttn-secondary:not(:disabled):not(.disabled).active,
+.show > .bttn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(122, 97, 22, 0.561);
+  border-color: rgba(122, 97, 22, 0.561);
+}
+
+.bttn-secondary:not(:disabled):not(.disabled):active:focus, .bttn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .bttn-secondary.dropdown-toggle:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(122, 97, 22, 0.561);
+}
+
+/*------------------------------ Modal ------------------------------*/
+.modal-dialog {
+  max-width: 550px;
+  margin: 1.75rem auto;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  font-family: "Red Rose", cursive;
+  font-size: 1rem;
+}
+
+/*------------------------------ Label reception-page ------------------------------*/
+label {
+  font-family: "Red Rose", cursive;
+}
+
+.label1 label {
+  display: inline-block;
+  width: 480px;
+  text-align: right;
+  margin: 0.25rem 0;
+}
+
+.label2 label {
+  display: inline-block;
+  width: 430px;
+  text-align: right;
+  margin: 0.25rem 0;
+}
+
+/*------------------------------ Jumbotron ------------------------------*/
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgb(138, 104, 12, 0.3);
+  border-radius: 0.3rem;
+  font-family: "Red Rose", cursive;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 0.1rem 2rem;
+  }
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+/*------------------------------ Input ------------------------------*/
+input[type="text"], input[type="password"], input[type="number"]  {
+  padding: 5px;
+  margin: 10px;
+  width: 20rem;
+  font-family: "Red Rose", cursive;
+  border-radius: 3px;
+}
+
+input:focus[type="text"], input:focus[type="password"], input:focus[type="number"] {
+  border-color: #382102;
+  box-shadow: 0 0 8px rgba(122, 97, 22, 0.561);
+  outline: 0 none;
+}
+
+input:read-only[type="text"] {
+  background-color: rgba(129, 110, 58, 0.2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*------------------------------ Hyperlink ------------------------------*/
+a {
+  color: rgb(122, 97, 22);
+}
+
+a:hover {
+  color:#382102;
+}
+
+/*------------------------------ Top Bar ------------------------------*/
+.top-bar-right {
+  padding: 3rem;
+  float: right;
+  font-size: small;
+}
+
+/*------------------------------ Card ------------------------------*/
+.item-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Red Rose", cursive;
+}
+
+.item-card {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  width: 13.45rem;
+  height: 20rem;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+}
+
+.item-image {
+  display: block;
+  margin: 0 auto;
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
+.item-name {
+  text-align: center;
+  padding: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}

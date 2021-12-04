@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#PrimlandLine {
+    width: 90%;
+    margin: 5em auto auto auto;
+    text-align: center;
+    background: rgb(201, 194, 174);
+}
+
+.website-header {
+    text-align: center;
+    background-color: white;
+    margin: 0 7em 0 7em;
+}
+
+#PrimlandLogo {
+    margin-bottom: -10em;
+}

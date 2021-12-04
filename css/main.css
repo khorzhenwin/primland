@@ -1,0 +1,637 @@
+/*Styling Divs that can be reuse
+fonts used : 
+1.Red Rose 
+2.Monserrat
+
+.center
+.modal-box
+.modal-content
+.modal-close
+.dataTable
+.page title
+.sliding-banner
+.form-error
+.form-success
+.modal-form
+.form-notification
+*/
+
+/*Respondsive design*/
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+@media screen and (max-width: 1500px) {
+    .forms {
+        width: 80%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Rose', cursive;
+}
+
+/*------------------------------------------------------*/
+
+main {
+    min-height: 50em;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+#login-body {
+    background-color: blue;
+}
+
+/*Title for every page*/
+
+.pagetitle {
+    border-radius: 10px;
+    background-color: rgb(138, 104, 12, 0.3);
+    width: 500px;
+    font-size: 60px;
+    text-align: center;
+    margin: 1em auto;
+    font-family: 'Red Rose', cursive;
+}
+
+/*aligns items anywhere in website center horizontally*/
+
+.center {
+    text-align: center;
+}
+
+/* top navigation bar*/
+
+nav {
+    background-color: #aeb0af;
+    margin-top: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.5em;
+    position: sticky;
+    top: 13;
+    z-index: 50;
+}
+
+.topnav-container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    z-index: inherit;
+}
+
+.topnav-container ul {
+    margin-right: auto;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.topnav-container>ul>li {
+    display: inline-block;
+    padding-right: 1.5em;
+}
+
+.topnav-container a {
+    text-decoration: none;
+    color: black;
+}
+
+#rooms {
+    cursor: pointer;
+}
+
+#Login {
+    padding-right: 2em;
+}
+
+.topnav-container button {
+    background-color: #c29559;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: 'Red Rose', cursive;
+    font-size: .7em;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.topnav-container button:hover {
+    background-color: black;
+    color: white;
+}
+
+.topnav-container button:active {
+    position: relative;
+    top: 1px;
+}
+
+.topnav-username {
+    margin-right: 2em;
+    padding-top: 0;
+    font-size: 16px;
+    padding-top: .7em;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    box-shadow: 3px 3px 8px rgb(107, 107, 107);
+    z-index: inherit;
+}
+
+.dropdown li {
+    display: block;
+    margin: 5px;
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(107, 107, 107);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.dropdown li:last-child {
+    border-bottom: none;
+}
+
+/* styling for profile.php */
+
+#profile-pictures {
+    display: block;
+    margin: 3em auto 3em auto;
+    text-align: center;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.profile-points {
+    float: right;
+    margin-top: -20em;
+    font-size: 1.2em;
+    color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: .5em;
+    background-color: rgb(204, 149, 78);
+}
+
+.forms {
+    width: 70%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#change-profile-form .label {
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+}
+
+#change-profile-form input[type=text], input[type=email] {
+    display: inline-block;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#change-profile-form input[type=file] {
+    color: grey;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+.change-password {
+    font-size: 1em;
+    color: rgb(64, 23, 212);
+    font-style: bold;
+    margin-top: 5em;
+}
+
+.change-password :hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.form-error {
+    color: red;
+    text-align: center;
+}
+
+.form-success {
+    color: green;
+}
+
+#book-warning {
+    width: 100%;
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    text-align: center;
+    width: 8em;
+    margin: 0 auto 1em auto;
+    background-color: rgb(114, 204, 114);
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    font-size: 1.2em;
+}
+
+.modal-form {
+    padding: 5em;
+    align-self: center;
+}
+
+.modal-box {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    background-color: white;
+    min-width: 350px;
+    min-height: 350px;
+    left: 1;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    right: 14px;
+    font-size: 2em;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.modal-open {
+    cursor: pointer;
+}
+
+.form-notification {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#changeprofile-notification {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+#changeprofilepassword {
+    width: 15em;
+    height: 15em;
+}
+
+#changeprofilepassword input[type=password] {
+    width: 100%;
+    margin: .5em 0;
+}
+
+#changepass-submit {
+    margin: 1em auto;
+    background-color: rgb(73, 189, 73);
+    display: block;
+    padding: 5px 1em;
+    border-radius: 10%;
+}
+
+/*Booking History Page*/
+
+.search-form {
+    padding-top: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.search-form select {
+    width: 15rem;
+    padding: .5em;
+    padding-left: 1em;
+    margin: 1em;
+}
+
+.search-form input[type=submit] {
+    width: 5rem;
+    padding: .5em;
+    margin-left: 1em;
+    background-color: rgb(238, 207, 68);
+    border-radius: 5px;
+}
+
+.search-form input[type=date] {
+    width: 15rem;
+    padding: .5em;
+    padding-left: 1em;
+    margin: 1em;
+}
+
+.booking-history-table {
+    margin-top: 2em;
+}
+
+.booking-history {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.booking-history tr:hover {
+    background-color: #ddd;
+}
+
+.booking-history td, .booking-history th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.booking-history th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a87838;
+    color: white;
+}
+
+.booking-history-warning {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.delete-button {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #413839;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.delete-button :hover {
+    background-color: rgb(112, 31, 31);
+    color: rgb(228, 228, 228);
+}
+
+/*Rooms pages*/
+
+.sliding-banner {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.mySlides {
+    object-fit: fill;
+    max-height: 40em;
+}
+
+.slide-button-left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    padding: 1em;
+}
+
+.slide-button-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    padding: 1em;
+}
+
+.description-wrapper {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.room-description {
+    font-size: 1.2em;
+}
+
+.room-description-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.booking-button {
+    font-size: 1em;
+    border: none;
+    background-color: rgb(221, 150, 17);
+    padding: 10px 1em;
+    border-radius: 25px;
+    font-weight: bold;
+    align-items: center;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+.book-room input[type=date] {
+    width: 100%;
+    padding: .5em;
+    background-color: rgb(190, 165, 137);
+}
+
+.book-room {
+    font-size: 1.2em;
+}
+
+.book-room [type=submit] {
+    padding: .5em;
+    margin-top: 1.7em;
+    font-size: .8em;
+    font-weight: bold;
+    width: 10em;
+    box-shadow: black 1px 1px 5px;
+    background-color: rgb(190, 165, 137);
+}
+
+.book-room select {
+    width: 9em;
+    margin-right: -5px;
+    padding: .5em;
+    background-color: rgb(190, 165, 137);
+    border-radius: 3px;
+}
+
+.register-first {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2em auto;
+    display: block;
+    color: rgb(224, 57, 57);
+}
+
+/*Other MISC*/
+
+.gallery {
+    text-align: center;
+    padding: 1em;
+}
+
+.gallery img {
+    width: 70%;
+    border: 3px solid black;
+}
+
+.gallery .subtitle-detail {
+    padding-top: 1em;
+}
+
+.subtitle {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: .5em;
+    border-radius: 10px;
+    background-color: rgba(122, 97, 22, 0.561);
+}
+
+.subtitle-detail {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.block {
+    text-align: center;
+    width: 90%;
+    margin: 1em auto;
+    padding: 3em 0;
+}
+
+/* footer */
+
+footer {
+    background-color: #382102;
+    padding: 2em 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+/*Hero Section Main page*/
+
+section.hero {
+    padding-top: 8em;
+    background: url('../images/hero.jpg');
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 30;
+}
+
+.clipper {
+    text-align: center;
+}
+
+.hero-heading {
+    color: white;
+    font-size: 8em;
+    letter-spacing: 10px;
+    text-shadow: grey 2px 2px 5px;
+    font: outline;
+}
+
+.hero-subheading {
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-style: bold;
+    font: arial;
+    font-size: 3em;
+    margin-bottom: 3em;
+}
+
+.cta {
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: rgb(200, 143, 20);
+    padding: .7em 1.2em;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.cta :hover {
+    background-color: black;
+    color: white;
+}
+
+.block-content {
+    min-height: 10em;
+    padding: 2em 0
+}
+
+.inner-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    position: relative;
+}
+
+/* Main page*/
+
+.inner-wrapper .rightcontainer {
+    float: right;
+    width: 60%;
+}
+
+.inner-wrapper .leftcontainer {
+    float: right;
+    width: 50%;
+    background-color: white;
+    text-align: justify;
+}
+
+.our-historyhomepage {
+    padding: 1.5em;
+    padding-left: 5em;
+}
+
+#homepage-history {
+    background-color: rgb(138, 104, 12, 0.3);
+}

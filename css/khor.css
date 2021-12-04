@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap");
+
+.m-a {
+  margin: auto;
+}
+
+.m-0-a {
+  margin: 0 auto;
+}
+
+.m-a-0 {
+  margin: 0 auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-l-2 {
+  margin-left: 1rem;
+}
+
+.p-r-2 {
+  margin-right: 1rem;
+}
+
+.p-t-2 {
+  margin-top: 1rem;
+}
+
+.p-b-2 {
+  margin-bottom: 1rem;
+}
+
+.p-l-1 {
+  margin-left: 0.5rem;
+}
+
+.p-r-1 {
+  margin-right: 0.5rem;
+}
+
+.p-t-1 {
+  margin-top: 0.5rem;
+}
+
+.p-b-1 {
+  margin-bottom: 0.5rem;
+}
+.p-y {
+  padding: 1rem 0;
+}
+
+.m-l-2 {
+  margin-left: 1rem;
+}
+
+.m-r-2 {
+  margin-right: 1rem;
+}
+
+.m-t-2 {
+  margin-top: 1rem;
+}
+
+.m-b-2 {
+  margin-bottom: 1rem;
+}
+
+.m-l-1 {
+  margin-left: 0.5rem;
+}
+
+.m-r-1 {
+  margin-right: 0.5rem;
+}
+
+.m-t-1 {
+  margin-top: 0.5rem;
+}
+
+.m-b-1 {
+  margin-bottom: 0.5rem;
+}
+
+.m-l-0 {
+  margin-left: 0;
+}
+
+.m-r-0 {
+  margin-right: 0;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.date-check {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.payment-information {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-top: 10rem;
+}
+
+.booking-modal-title {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  width: 30%;
+}
+
+.payment-modal {
+  width: 60rem;
+  height: auto;
+}
+
+.payment-form-container input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  background-color: rgb(190, 165, 137);
+}
+.expiration-date input[type="text"] {
+  width: 95%;
+}
+
+.flex {
+  display: flex;
+}
